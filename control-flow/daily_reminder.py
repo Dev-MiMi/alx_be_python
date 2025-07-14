@@ -10,7 +10,7 @@ match level:
         elif time == "no":
             print(f"Note: '{task_des}' is a high priority task. Consider completing it when you have free time.")
     case "medium":
-        if time == yes:
+        if time == "yes":
             print(f"Reminder: '{task_des}' is a medium priority task that requires immediate attention today!")
         elif time == "no":
             print(f"Note: '{task_des}' is a medium priority task. Consider completing it when you have free time.")
