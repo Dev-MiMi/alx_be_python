@@ -1,5 +1,5 @@
 
-task_des = input("Enter your task: ").capitalize()
+task_des = input("Enter your task: ")
 level = input("Priority (high/medium/low): ").lower()
 time = input("Is it time-bound? (yes/no): ").lower()
 
