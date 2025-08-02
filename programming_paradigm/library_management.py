@@ -10,5 +10,9 @@ class Library:
        self._books = _books
     def add_book(self):
         pass
-    def check_out_book(title):
+    def check_out_book(self, title):
         return self.title
+    def return_book(self, title):
+        return self.title
+    def list_available_books(self):
+        pass
