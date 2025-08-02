@@ -11,8 +11,9 @@ class Library:
     def add_book(self):
         pass
     def check_out_book(self, title):
-        return self.title
+        print(f"{title} by {self.author}")
     def return_book(self, title):
         return self.title
     def list_available_books(self):
-        pass
+        print(f"{self.title} by {self.author}")
+        print(f"{self.title} by {self.author}")
