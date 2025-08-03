@@ -7,7 +7,7 @@ class Book:
         self._is_checked_out = _is_checked_out
 class Library:
     def __init__(self):
-       self._books = _books
+       self._books = []
     def add_book(self):
         pass
     def check_out_book(self, title):
