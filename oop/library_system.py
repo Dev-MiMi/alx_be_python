@@ -17,7 +17,7 @@ class PrintBook(Book):
 
 class Library:
     def __init__(self):
-        self.books = books
+        self.books = [Book, EBook, PrintBook]
     def add_book(self, book):
         pass
     def list_books(self):
